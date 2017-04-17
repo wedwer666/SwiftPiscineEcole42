@@ -1,0 +1,18 @@
+Create project with multiple pages in xcode, swift
+A calculator that contains:
+As UIButton:
+• The chips
+From 0 to 9
+• 'AC' which will reset the calculator
+• '=' which will execute the operation with the 2 operands
+The operators '+', '-', '/', '*'
+• 'NEG' which will take the opposite of the current number
+Once all the UIButtons are placed correctly, make sure the AutoLayout
+Is always managed (on all devices and all modes).
+The keys assigned to the chips
+Must be able to modify the UILabel by changing
+The number
+But the other keys will not be programmed for the
+moment.
+You will be able to add a bit of debug. With each support on a UIButton,
+Its action must be written to the debug console (the format is free).
