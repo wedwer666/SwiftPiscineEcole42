@@ -9,23 +9,24 @@
 import UIKit
 
 class SecondViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-
-    
-    let datalocation = ["Chisinau", "Madrid", "China"]
-    
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return (datalocation.count)
+        return (AppData.locations.count)
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! DataLocationTableViewCell
-        cell.label?.text = datalocation[indexPath.row]
+        cell.label?.text = AppData.locations[indexPath.row].title
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        AppData.curLocation = AppData.locations[indexPath.row]
+        DispatchQueue.main.async {
+            self.performSegue(withIdentifier : "showMap", sender: Any?.self)
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +37,5 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48BD9E8B1EAE21F9001F0B00 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BD9E8A1EAE21F9001F0B00 /* AppData.swift */; };
 		82ADB5C41EADDB6B000D5DF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ADB5C31EADDB6B000D5DF1 /* AppDelegate.swift */; };
 		82ADB5C61EADDB6B000D5DF1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ADB5C51EADDB6B000D5DF1 /* FirstViewController.swift */; };
 		82ADB5C81EADDB6B000D5DF1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ADB5C71EADDB6B000D5DF1 /* SecondViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48BD9E8A1EAE21F9001F0B00 /* AppData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
 		82ADB5C01EADDB6B000D5DF1 /* Day05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day05.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82ADB5C31EADDB6B000D5DF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82ADB5C51EADDB6B000D5DF1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				82ADB5D11EADDB6B000D5DF1 /* Info.plist */,
 				82ADB5D71EADE896000D5DF1 /* DataLocationTableViewCell.swift */,
 				82ADB5D91EADFFA5000D5DF1 /* BSUAnnotation.swift */,
+				48BD9E8A1EAE21F9001F0B00 /* AppData.swift */,
 			);
 			path = Day05;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				82ADB5C81EADDB6B000D5DF1 /* SecondViewController.swift in Sources */,
 				82ADB5C41EADDB6B000D5DF1 /* AppDelegate.swift in Sources */,
 				82ADB5C61EADDB6B000D5DF1 /* FirstViewController.swift in Sources */,
+				48BD9E8B1EAE21F9001F0B00 /* AppData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +330,7 @@
 				82ADB5D61EADDB6B000D5DF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
