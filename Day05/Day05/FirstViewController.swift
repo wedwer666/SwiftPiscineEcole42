@@ -5,13 +5,13 @@ import CoreLocation
 class FirstViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet weak var mapView: MKMapView!
-    @IBOutlet weak var segmentedControl: UISegmentedControl!
-
+    
     @IBAction func conectPosition(_ sender: UIButton)
     {
-        
+        print("asdasdasd")
     }
     
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
     
     let manager = CLLocationManager()
     
@@ -52,8 +52,9 @@ class FirstViewController: UIViewController, CLLocationManagerDelegate {
         manager.delegate = self
         manager.desiredAccuracy = kCLLocationAccuracyBest
         manager.requestWhenInUseAuthorization()
+        
         manager.startUpdatingLocation()
-        manager.stopUpdatingLocation()
+//        manager.stopUpdatingLocation()
         mapView.setRegion(MKCoordinateRegionMakeWithDistance(AppData.curLocation.coordinate, AppData.curLocation.distSpan, AppData.curLocation.distSpan), animated: true)
         AppData.locations.forEach { (annotation) in
             mapView.addAnnotation(annotation)
