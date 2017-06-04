@@ -1,5 +1,5 @@
 ## SwiftPiscineEcole42
-* ** Day 00 - Basic Sintax, Make a Calculator in Swift**
+* **Day 00 - Basic Sintax, Make a Calculator in Swift**
 Day 01 - Work with override, functions, inheritance in playground(console) in xcode, connect all of them (cat * | .swift)
 Day 02 - Create a Death Note App
 Day 03 - Create an aplication where images with hight resolution could be uploaded with url in view controller and scrolling every image
