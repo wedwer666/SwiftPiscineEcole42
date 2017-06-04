@@ -10,7 +10,7 @@
 * **Day 07 - Create your first weather - bot with voice (ForecastIO), tokens and DarkSky forecast**
 * **Day 08 - Create your first cocoapod (verify it recursively) and upload it under the MIT license**
 * **Day 09 - missed that day :)**
-* **Rush01 - Develop a google-maps application using cocoapods and mapkit framework **
+* **Rush01 - Develop a google-maps application using cocoapods and mapkit framework**
 
 ## Getting Started
 ## Running the tests
