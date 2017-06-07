@@ -1,3 +1,33 @@
+## MIDPS
+
+Integrated development environment
+
+
+|      Day      |     Tasks                                               |  
+| ------------- | ---------------------------                                  |
+|      00       |    Basic Sintax, Make a Calculator in Swift                    |  
+|      01       |    Work with override, functions, inheritance in playground(console) in xcode, connect all of them (cat * | .swift)  | 
+|      02       |    Create a Death Note App |
+|      03       |    Create an aplication where images with hight resolution could be uploaded with url in view controller and scrolling every image                    |  
+
+
+## Running the tests
+
+In order to run the test the user must git clone the project and run them.
+
+
+### And coding style tests
+
+Explain what these tests test and why
+
+## Authors
+
+* **Mitriuc Maria** 
+
+## License
+
+This project was done during Integrated development environment Course at Tehnical University of Moldova, Information Technolgy.
+
 ## SwiftPiscineEcole42
 * **Day 00 - Basic Sintax, Make a Calculator in Swift**
 * **Day 01 - Work with override, functions, inheritance in playground(console) in xcode, connect all of them (cat * | .swift)**
