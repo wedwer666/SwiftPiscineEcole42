@@ -13,9 +13,9 @@ Integrated development environment
 |    Rush00    |      Work with 42 API and change the configuration of the Ecole 42 site |
 |      05      |     Make a map using MapKit Framework, geolocation, navigators    |  
 |      06      |      Make a game with bouncy, gravitation and object-scaling, pin - gesture |
-|     Day 07   |     Create your first weather - bot with voice (ForecastIO), tokens and DarkSky forecast |
-|    Day 08    |   Create your first cocoapod (verify it recursively) and upload it under the MIT license |
-|    Day 09    |     missed that day :)  |
+|      07       |     Create your first weather - bot with voice (ForecastIO), tokens and DarkSky forecast |
+|   08       |Create your first cocoapod (verify it recursively) and upload it under the MIT license |
+|     09    |     missed that day :)  |
 |  Rush01      | Develop a google-maps application using cocoapods and mapkit framework |
 ## Running the tests
 
