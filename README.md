@@ -33,4 +33,4 @@ Explain what these tests test and why
 
 ## License
 
-This project was done during Integrated development environment Course at Tehnical University of Moldova, Information Technolgy.
+This project was done during Ecole 42 Course at Academy + Moldova.
